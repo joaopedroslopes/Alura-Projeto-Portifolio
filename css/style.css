@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--black);
+    color: var(--off-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.cabecalho{
+
+    padding: 60px 0 0 0;
+    width: 1090px;
+    display: flex;
+    gap: 80px;
+
+    a{
+
+        text-decoration: none;
+        color: var(--light-blue);
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+
+    }
+
+    /* a:hover{
+
+        color: var(--off-white);
+        transition: 200ms;
+
+    }
+     */
+}
+
+
+.titulo-destaque{
+    color: var(--light-blue);
+    font-weight: 400;
+}
+
+.pagina{
+    width: 1150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagina_conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.pagina_conteudo_titulo{
+    font-size: 50px;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.pagina_conteudo_texto{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    line-height: 36px;
+}
+
+.pagina_links{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.pagina_links_link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    /* background-color: var(--black); */
+    border: 2px solid var(--light-blue);
+    border-radius: 8px;
+    width: 378px;
+    padding: 21.5px 0;
+    color: var(--off-white);
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.pagina_links_link_imagens{
+
+    width: 32px;
+    height: 32px;
+
+}
+
+.pagina_links_link:hover{
+    background-color: var(--grey-hover);
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.pagina_links_titulo{
+
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 2px;
+
+}
+
+.rodape{
+
+    height: 80px;
+    background-color: var(--light-blue);
+    width: 100%;
+    
+}
+
+.rodape_texto{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
